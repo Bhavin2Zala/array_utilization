@@ -1,6 +1,6 @@
 
 function groupArray($data, $key){
-   $statusArr = array_column($data,key); 
+   $statusArr = array_column($data,$key); 
    $uniqueVal = array_unique($statusArr);
    $finalData = array_map(function($value) use($data, $statusArr){
       $sliceKeys=array_keys($statusArr,$value);
