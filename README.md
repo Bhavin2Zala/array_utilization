@@ -1,5 +1,4 @@
 # array_utilization
-Create new array based on sub child array value uniquely. Get sub child array value as key and grouping all sub child array respectively.
 
 $data=[
    [
@@ -24,7 +23,12 @@ $data=[
    ]
 ];
 
-use group_array_based_on_sub_array.php and call groupArray($data,'status');
+group_array_based_on_sub_array.php :
+
+Create new array based on sub child array value uniquely. Get sub child array value as key and grouping all sub child array respectively.
+
+
+call groupArray($data,'status');
 
 o/p : 
 
